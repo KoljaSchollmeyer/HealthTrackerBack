@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/Dockerfile">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/Dockerfile" />
+              <option name="originalContent" value="&#10;FROM node:18-alpine&#10;WORKDIR /app&#10;COPY package*.json ./&#10;RUN npm install --only=production&#10;COPY . .&#10;EXPOSE 3000&#10;CMD [&quot;node&quot;, &quot;index.js&quot;]&#10;" />
+              <option name="updatedContent" value="&#10;FROM node:18-alpine&#10;WORKDIR /app&#10;COPY package*.json ./&#10;RUN npm install --only=production&#10;COPY . .&#10;EXPOSE 3000&#10;CMD [&quot;npm&quot;, &quot;start&quot;]&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/package.json" />
+              <option name="originalContent" value="{&#10;  &quot;name&quot;: &quot;healthtrackerback&quot;,&#10;  &quot;version&quot;: &quot;1.0.0&quot;,&#10;  &quot;description&quot;: &quot;&quot;,&#10;  &quot;homepage&quot;: &quot;https://github.com/KoljaSchollmeyer/HealthTrackerBack#readme&quot;,&#10;  &quot;bugs&quot;: {&#10;    &quot;url&quot;: &quot;https://github.com/KoljaSchollmeyer/HealthTrackerBack/issues&quot;&#10;  },&#10;  &quot;repository&quot;: {&#10;    &quot;type&quot;: &quot;git&quot;,&#10;    &quot;url&quot;: &quot;git+https://github.com/KoljaSchollmeyer/HealthTrackerBack.git&quot;&#10;  },&#10;  &quot;license&quot;: &quot;ISC&quot;,&#10;  &quot;author&quot;: &quot;&quot;,&#10;  &quot;type&quot;: &quot;commonjs&quot;,&#10;  &quot;main&quot;: &quot;index.js&quot;,&#10;  &quot;scripts&quot;: {&#10;    &quot;test&quot;: &quot;jest &quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;jest&quot;: &quot;^30.2.0&quot;,&#10;    &quot;@babel/core&quot;: &quot;^7.29.0&quot;,&#10;    &quot;@babel/plugin-transform-modules-commonjs&quot;: &quot;^7.28.6&quot;,&#10;    &quot;babel-jest&quot;: &quot;^30.2.0&quot;&#10;  }&#10;}&#10;" />
+              <option name="updatedContent" value="{&#10;  &quot;name&quot;: &quot;healthtrackerback&quot;,&#10;  &quot;version&quot;: &quot;1.0.0&quot;,&#10;  &quot;description&quot;: &quot;&quot;,&#10;  &quot;homepage&quot;: &quot;https://github.com/KoljaSchollmeyer/HealthTrackerBack#readme&quot;,&#10;  &quot;bugs&quot;: {&#10;    &quot;url&quot;: &quot;https://github.com/KoljaSchollmeyer/HealthTrackerBack/issues&quot;&#10;  },&#10;  &quot;repository&quot;: {&#10;    &quot;type&quot;: &quot;git&quot;,&#10;    &quot;url&quot;: &quot;git+https://github.com/KoljaSchollmeyer/HealthTrackerBack.git&quot;&#10;  },&#10;  &quot;license&quot;: &quot;ISC&quot;,&#10;  &quot;author&quot;: &quot;&quot;,&#10;  &quot;type&quot;: &quot;commonjs&quot;,&#10;  &quot;main&quot;: &quot;index.js&quot;,&#10;  &quot;scripts&quot;: {&#10;    &quot;start&quot;: &quot;node index.js&quot;,&#10;    &quot;test&quot;: &quot;jest &quot;&#10;  },&#10;  &quot;devDependencies&quot;: {&#10;    &quot;jest&quot;: &quot;^30.2.0&quot;,&#10;    &quot;@babel/core&quot;: &quot;^7.29.0&quot;,&#10;    &quot;@babel/plugin-transform-modules-commonjs&quot;: &quot;^7.28.6&quot;,&#10;    &quot;babel-jest&quot;: &quot;^30.2.0&quot;&#10;  }&#10;}&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
